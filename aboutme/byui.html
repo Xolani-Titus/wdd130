@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYUI</title>
+    <!--Inside the head element, add the link tag to the HTML page, 
+        which will link this HTML page to the CSS file.The rel attribute
+        specifies the relationship between the current document and the linked document. 
+        The href or hypertext reference shows where the document is located. It is inside 
+        a styles folder and is called styles.css.-->
+
+        <link rel="stylesheet" href="styles/styles.css"/>
+      <style>
+      body {
+        text-align: center;
+    }   
+    nav {
+        background-color: steelblue;
+        padding: 10px;
+    }
+    a {
+        color: white;
+        margin: 10px;
+    }
+    h1 {
+        color: steelblue;
+    }
+    img {
+        width: 800px;
+        border: 40px solid steelblue;
+    }
+    p {
+        padding: 10px;
+    }
+    footer {
+        background-color: steelblue;
+        color: white;
+    }
+      </style> 
+    
+</head>
+<body>
+  
+    <!--The body tag has 3 children tags of header, main and footer-->
+    <header>
+        <!--The nav element will contain menu links. These links are created with an a tag-->
+        <nav>
+            <!--An attribute is added to the opening a tag that shows where to take the 
+                user when they click on the content.-->
+            <a href="byui.html">Home</a>
+            <a href="https://www.churchofjesuschrist.org">Church of Jesus Christ</a>
+            <a href="https://www.churchofjesuschrist.org/temples">Temples</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures">Scriptures</a>
+
+        </nav>
+    </header>
+    <main>
+        <!--main part of the web page has a header level one title 
+            for the page using an h1 tag and a paragraph beneath the title using a p tag. 
+            Then add an img tag. There are two attributes needed for an image. 
+            First where is the image located or what is the source (src) and, second what 
+            is some alternative text (alt) that can be used if the image can't be seen.-->
+
+        <h1>Brigham Young University Idaho</h1>
+        <p>BYU-Idaho is a comfortable place to learn and grow as a disciple of Jesus Christ because students,
+             faculty, and employees share a commitment to live the gospel.
+        </p>
+        <img
+    src="https://www.byui.edu/images/service-sites/map-banner.jpg"
+    alt="BYUI Campus"/>
+    </main>
+    <footer>
+        <!-- Here you add a p tag to your footer with a bit of information for the bottom of your page-->
+        <p>My Web Page 20XX &copy</p>
+    </footer>
+</body>
+</html>
