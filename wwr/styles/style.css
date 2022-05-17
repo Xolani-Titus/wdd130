@@ -1,18 +1,14 @@
-div {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
-nav a, a:hover {
-    background-color: white;
+nav a {
     text-align: center;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-}
-#hero-msg {
-    width: 100%;
 }
 .button-box {
     text-align: center;
@@ -29,21 +25,14 @@ body {
 header {
     background-color:grey;
 }
-nav a {
-    color: black;
-}
-
-.home-little {
+nav a:hover {
+    background-color: white;
     color: black;
 }
 .book, .join {
-    background-color:  #57CC99;
+    background-color: #57CC99;
+    color: black;
     text-decoration: none;
-    color: grey;
-}
-.book:hover, .join:hover {
-    background-color: white;
-    color: grey; 
 }
 #background {
     background-color: blanchedalmond;
@@ -51,24 +40,34 @@ nav a {
 .msg {
     background-color: darkgrey;
 }
-.msg h2, p {
+footer {
+    background-color: darkgrey;
+}
+.home-title {
+    color: black;
+}
+h4 {
+    color: black;
+}
+.book, .join:hover {
+    color: black;
+}
+.msg h2 {
+    color: black;
+
+}
+.msg p{
     color: black;
 }
 footer h3 {
     color: black;
-
 }
 footer a {
     color: black;
-}
-footer a:hover { 
-    color: black;
     text-decoration: none;
 }
-footer {
-    background-color: darkgrey;
-}
-footer h3 a:hover {
+footer a:hover {
+    color: white;
     text-decoration: underline;
 }
 .icon {
@@ -76,4 +75,7 @@ footer h3 a:hover {
 }
 .logo {
     width: 80px;
+}
+#hero-img {
+    width: 100%;
 }
