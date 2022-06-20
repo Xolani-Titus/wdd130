@@ -208,6 +208,7 @@ footer a:hover {
     padding: 20px;
     grid-column: 6/10;
     grid-row: 6/7;
+    font-size: 1.5em;
     background-color: white;
     box-shadow: 5px 5px 10px #6f7364; 
     border: 50px solid blanchedalmond;
@@ -220,6 +221,7 @@ footer a:hover {
     padding: 50px;
     grid-column: 6/10;
     grid-row: 6/7;
+    font-size: 1.5em;
     background-color: white;
     box-shadow: 5px 5px 10px #6f7364;
     border: 50px solid blanchedalmond;
