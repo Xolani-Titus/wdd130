@@ -1,0 +1,52 @@
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: lightcyan;
+    color: black;
+}
+.logo {
+    width: 80px;
+    border-radius: 15px;
+    
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+header {
+    background-color:lightslategray;
+    font-family: "Dancing Script";
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+footer a:hover {
+    color: lightcyan;;
+    text-decoration: underline;
+}
+
+footer { 
+    background-color: lightslategray;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
