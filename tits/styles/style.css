@@ -1,11 +1,14 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-nav {
-    display: flex;
-    justify-content: space-around;
+/*****HEADER SECTION*****/
+header {
+    background-color:lightslategray;
+    font-family: "Dancing Script";
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a {
     text-align: center;
@@ -17,35 +20,114 @@ nav a:hover {
     background-color: lightcyan;
     color: black;
 }
-.logo {
-    width: 80px;
-    border-radius: 15px;
-    
+
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
-header {
-    background-color:lightslategray;
-    font-family: "Dancing Script";
-    display: grid;
-    grid-template-columns: 150px auto;
+.logo {
+    width: 80px;
+    border-radius: 15px;
+    
 }
-footer a:hover {
-    color: lightcyan;;
-    text-decoration: underline;
+/*****HERO SECTION*****/
+#hero {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.home-title {
+    text-align: center;
+}
+#hero-img {   
+    display: grid;
+    grid-column: 1/10;
+    grid-row: 1/5;
+    margin-top: 0 auto;
+    padding-left: 250px;
+}
+#hero-box {
+    grid-column: 1/10;
+    grid-row: 1/5;
+}
+#nelson-quote {
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 7/11;
+    grid-row: 2/4;
+    background-color: lightcyan;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid gainsboro;
+    transition: transform .5s;
 }
 
+#hero2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+#hero2-img {  
+    margin-top: 40px;
+    display: grid;
+    grid-column: 1/10;
+    grid-row: 1/5;
+    margin-top: 0 auto;
+    padding-left: 250px;
+    
+}
+#hero2-box {
+    grid-column: 1/10;
+    grid-row: 1/5;
+ 
+}
+#john-quote {
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 7/11;
+    grid-row: 2/4;
+    background-color: lightcyan;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid gainsboro;
+    transition: transform .5s; 
+}
+/****MAIN SECTION*****/
+.home-msg {
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid gainsboro;
+    transition: transform .5s; 
+}
+body {
+    background-color: gainsboro; 
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+/****FOOTER SECTION*****/
 footer { 
     background-color: lightslategray;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+footer .social img {
+    padding-top: 15px;
+}
+footer a:hover {
+    color: lightcyan;
+    text-decoration: underline;
+}
+
+
 
 
 
