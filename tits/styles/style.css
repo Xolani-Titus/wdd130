@@ -33,7 +33,6 @@ nav {
 .logo {
     width: 80px;
     border-radius: 15px;
-    
 }
 /*****HERO SECTION*****/
 #hero {
@@ -42,12 +41,12 @@ nav {
 }
 .home-title {
     text-align: center;
+    font-size: 2em;
 }
 #hero-img {   
     display: grid;
     grid-column: 1/10;
     grid-row: 1/5;
-    margin-top: 0 auto;
     padding-left: 250px;
 }
 #hero-box {
@@ -75,7 +74,6 @@ nav {
     display: grid;
     grid-column: 1/10;
     grid-row: 1/5;
-    margin-top: 0 auto;
     padding-left: 250px;
     
 }
@@ -99,7 +97,7 @@ nav {
     margin-top: 20px;
     text-align: center;
     background-color: white;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px lightcyan;
     border: 10px solid gainsboro;
     transition: transform .5s; 
 }
@@ -131,8 +129,80 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/*****ABOUT CSS****/
+#about-page {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+#about-msg {
+    display: grid;
+    margin-top: 40px;
+    grid-column: 2/10;
+    grid-row: 1/2;
+    text-align: center;
+    background-color:whitesmoke;
+    box-shadow: 5px 5px 10px lightcyan;
+    border-radius: 50px;
+    border: 10px solid gainsboro;
+    font-size: 1.5em;
+   
+}
+.logo:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.social img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+#about-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+#about-img  {
+    margin-top: 40px;
+    grid-column: 6;
+    grid-row: 2/8;
+    box-shadow: 5px 5px 10px lightcyan;
+    border: 10px solid gainsboro;
 
+}
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.our-story-title {
+    display: grid;
+    margin-top: 40px;
+    grid-column: 2/10;
+    grid-row: 1/2;
+    text-align: center;
+    background-color:whitesmoke;
+    box-shadow: 5px 5px 10px lightcyan;
+    border-radius: 50px;
+    border: 10px solid gainsboro;
+    font-size: 1.5em;
+}
 
-
-
-
+.xolani-img {
+    margin-top: 40px;
+    width: 40%;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    
+}
+.about-grid h2 {
+    padding-left: 200px;
+}
+.nonkosi-img {
+    margin-top: 40px;
+    width: 40%; 
+    grid-column: 7/9;
+    grid-row: 2/3;
+}
+.image {
+    box-shadow: 5px 5px 10px lightcyan;
+    border: 10px solid whitesmoke;
+    border-radius: 50%
+}
+/****MEDIA****/
