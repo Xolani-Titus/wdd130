@@ -205,4 +205,8 @@ footer a:hover {
     border: 10px solid whitesmoke;
     border-radius: 50%
 }
+.image:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 /****MEDIA****/
