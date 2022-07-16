@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Roboto+Serif:opsz,wght@8..144,300&display=swap');
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,7 +6,7 @@
 /*****HEADER SECTION*****/
 header {
     background-color:lightslategray;
-    font-family: "Dancing Script";
+    font-family: "Cormorant SC";
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -103,7 +103,7 @@ nav {
 }
 body {
     background-color: gainsboro; 
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Roboto Serif, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -209,4 +209,63 @@ footer a:hover {
     opacity: .6;
     transform: scale(1.1);
 }
+
+/*****TRANSLATION PAGE*****/
+
+
+#translation-page {
+    text-align: center;
+}
+
+.translator-img {
+    box-shadow: 5px 5px 10px lightcyan;
+    border: 10px solid whitesmoke;
+    margin: center;
+}
+.translation-card, h2 {
+    text-align: center;
+   
+}
+.translation-card p {
+  
+    line-height: 1.5em;
+    padding: 35px;
+    background-color: lightcyan;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid gainsboro;
+    transition: transform .5s;
+
+}
+.content-review-card, h2 {
+    text-align: center;
+   
+}
+.content-review-card p {
+    background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
+    background-color: lightcyan;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid gainsboro;
+    transition: transform .5s;
+}
+.language-proof-card, h2 {
+    text-align: center;
+   
+}
+.language-proof-card p {
+    line-height: 1.5em;
+    padding: 35px;
+    background-color: lightcyan;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid gainsboro;
+    transition: transform .5s;
+    
+}
+.translator-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
 /****MEDIA****/
